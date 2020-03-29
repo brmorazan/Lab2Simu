@@ -4,8 +4,8 @@ Compilador: gcc (Debian 6.3.0-18+deb9u1) 6.3.0 20170516
 Compilado: gcc Lab4(1).c -o Lab4(1)
 Fecha: jue mar 26 23:37:14 CST 2020
 Resumen: Este algoritmo codificado solicita al usuario un vector de 10 elementos, los cuales son numeros pares del 2 al 20. Iniciado el programa, a traves de un menu solicita como se quiere ver los elementos del vector igresado, ya sea de forma ascendente o descendente. Seguidamente se muestra el vector ordenado.
-Entrada: pendientes
-Salida: pedientes
+Entrada: "vector", ademas de las varibles auxiliares: "aux1" y "aux2"
+Salida: Se muestra con un print "vector[i]"
 */
 
 //Librerias
@@ -25,7 +25,7 @@ Salida: pedientes
 //9. En el caso de ingresar valores diferentes de "a" y "d" muestra un mensaje de error, y solicita de nuevo gracias al while.
 //10. Para salir del cilco while condicionamos que sea al seleccionar "a" o "d", con lo cual finaliza el programa.
 //11. Finaliza el algoritmo.
-//
+//------------------------------------------------------------------------
 	  
 //Declarando variables: "vector" y "x" que tambien es un vector, para restringir el menu.
 int vector[]={4,2,16,8,10,20,14,6,18,12};
